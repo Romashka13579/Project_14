@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background: #212121;
+    width: 100vw;
+    height: 100vh;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    height: 60px;
+    z-index: 2;
+    background: #E64A19;
+}
+.dm-home, .dm-wordpress, .dm-webdesign, .dm-graphic, .dm-inspiration, .dm-contact, .dm-about, .dm-home-menu, .dm-wordpress-menu, .dm-webdesign-link, .dm-webdesign-link-1, .dm-webdesign-link-2, .dm-webdesign-link-3, .dm-graphic-menu, .dm-inspiration-menu, .dm-contact-menu, .dm-about-menu{
+    position: relative;
+    float: left;
+    padding: 17px 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.dm-home-menu, .dm-wordpress-menu, .dm-webdesign-menu, .dm-webdesign-menu-1, .dm-webdesign-menu-2, .dm-webdesign-menu-3, .dm-graphic-menu, .dm-inspiration-menu, .dm-contact-menu, .dm-about-menu{
+    position: relative;
+    float: left;
+    width: 180px;
+    height: auto;
+}
+.dm-home:hover, .dm-wordpress:hover, .dm-webdesign:hover, .dm-graphic:hover, .dm-inspiration:hover, .dm-contact:hover, .dm-about:hover{
+    background: #212121;
+}
+.dm-home-menu, .dm-wordpress-level-1, .dm-webdesign-level-1, .dm-webdesign-level-2, .dm-webdesign-level-3, .dm-graphic-menu, .dm-inspiration-menu, .dm-contact-menu, .dm-about-menu{
+    display: none;
+}
+.dm-home:hover .dm-home-menu, .dm-wordpress:hover .dm-wordpress-level-1, .dm-webdesign:hover .dm-webdesign-level-1, .dm-webdesign-menu-1:hover .dm-webdesign-level-2, .dm-webdesign-menu-2:hover .dm-webdesign-level-3, .dm-graphic:hover .dm-graphic-menu, .dm-inspiration:hover .dm-inspiration-menu, .dm-contact:hover .dm-contact-menu, .dm-about:hover .dm-about-menu{
+    position: absolute;
+    display: block;
+    width: 180px;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    text-decoration: none;
+    background: #E64A19;
+}
+.dm-webdesign-menu-1:hover .dm-webdesign-level-2, .dm-webdesign-menu-2:hover .dm-webdesign-level-3{
+    top: 0px;
+    left: 180px;
+}
+.dm-wordpress-menu, .dm-webdesign-menu, .dm-webdesign-menu-1, .dm-webdesign-menu-2, .dm-webdesign-menu-3{
+    text-decoration: none;
+}
+.dm-webdesign-menu-1:hover, .dm-webdesign-menu-2:hover, .dm-webdesign-menu-3:hover{
+    background: #212121;
+}
+.main-txt{
+    position: absolute;
+    top: 300px;
+    font-size: 46px;
+    font-weight: 600;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+}
+.main-txt-bottom{
+    position: absolute;
+    top: 400px;
+    font-size: 18px;
+    font-weight: 600;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+}
